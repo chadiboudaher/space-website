@@ -4,7 +4,7 @@ import Logo from "../../assets/icons8-space-50.png";
 const Navbar = () => {
   return (
     <div className="fixed top-0 right-0 w-full z-50 bg-black/10 backdrop-blur-sm py-4 px-10">
-      <div className="flex w-full justify-between items-center">
+      <div className="flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center text-white gap-4 font-bold text-2xl">
           <img src={Logo} alt="logo" className="w-10" />
@@ -28,7 +28,7 @@ const Navbar = () => {
             </li>
           </ul>
 
-          <button className="text-white border-2 border-white px-3 py-1 rounded-md">
+          <button className="text-white border-2 border-white px-3 py-1 rounded-md hover:opacity-90">
             Login
           </button>
         </div>

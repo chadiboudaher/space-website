@@ -1,6 +1,7 @@
 import React from "react";
 import bgVideo from "./assets/earth.mp4";
 import Navbar from "./components/Navbar/Navbar";
+import Hero from "./components/Hero/Hero";
 
 const App = () => {
   return (
@@ -10,11 +11,12 @@ const App = () => {
           autoPlay
           loop
           muted
-          className="fixed right-0 top-0 h-[700[px] w-full object-cover z[-1]"
+          className="fixed inset-0 h-full w-full object-cover -z-10"
         >
           <source src={bgVideo} type="video/mp4" />
         </video>
         <Navbar />
+        <Hero />
       </div>
     </div>
   );
