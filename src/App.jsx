@@ -2,6 +2,7 @@ import React from "react";
 import bgVideo from "./assets/earth.mp4";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
+import Services from "./components/Services/Services";
 
 const App = () => {
   return (
@@ -11,13 +12,16 @@ const App = () => {
           autoPlay
           loop
           muted
-          className="fixed inset-0 h-full w-full object-cover -z-10"
+          className="absolute inset-0 h-full w-full object-cover -z-10"
         >
           <source src={bgVideo} type="video/mp4" />
         </video>
         <Navbar />
         <Hero />
       </div>
+
+      {/* Services Card Section */}
+      <Services />
     </div>
   );
 };
