@@ -3,6 +3,7 @@ import bgVideo from "./assets/earth.mp4";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import Services from "./components/Services/Services";
+import Banner from "./components/Banner/Banner";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
 
       {/* Services Card Section */}
       <Services />
+      <Banner />
     </div>
   );
 };

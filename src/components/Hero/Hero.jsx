@@ -1,4 +1,5 @@
 import React from "react";
+// import surface from "../../assets/surface.png";
 
 const Hero = () => {
   return (
@@ -17,9 +18,10 @@ const Hero = () => {
               Learn More
             </button>
           </div>
-          <div></div>
+          {/* <div>|</div> */}
         </div>
       </div>
+      <div className="absolute bottom-0 w-full z-30 bg-gradient-to-b from-transparent from-10% to-black to-90% h-[20px] sm:h-[50px] md:[60px]"></div>
     </div>
   );
 };
